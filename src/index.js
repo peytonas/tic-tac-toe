@@ -4,7 +4,7 @@ import './style.css';
 
 function Square(props) {
   return (
-    <button className="square" onClick={props.onClick}>
+    <button className="square btn btn-success text-dark bg-info" onClick={props.onClick}>
       {props.value}
     </button>
   );
